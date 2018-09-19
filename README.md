@@ -1,6 +1,6 @@
 ### Welcome!
 
-This is the back end for Tinynote, a simple note-taking app that I built using React and a Rails starter template provided by the Flatiron School. For the front end, see https://github.com/mdtalbot/tinynote-frontend.  
+This is the back end for FlatNote, a simple note-taking app that I built using React and a Rails starter template provided by the Flatiron School. For the front end, see https://github.com/mdtalbot/flatnote-frontend.  
 
 ### Motivation
 
@@ -25,8 +25,8 @@ This app was created mostly just to sharpen my React skills, as well as help me 
 Clone the source locally:
 
 ```sh
-$ git clone https://github.com/mdtalbot/tinynote-backend/
-$ cd tinynote-backend
+$ git clone https://github.com/mdtalbot/flatnote-backend/
+$ cd flatnote-backend
 ```
 
 Install the `bundler` Gemfile:
@@ -66,4 +66,4 @@ Start the server on port 4000:
 $ rails s -p 4000
 ```
 
-*Once the server is running, make sure to also clone, install, and run the front end, found at http://www.github.com/mdtalbot/tinynote-frontend*. Installation instructions for the front end are found in that repository's README.
+*Once the server is running, make sure to also clone, install, and run the front end, found at http://www.github.com/mdtalbot/flatnote-frontend*. Installation instructions for the front end are found in that repository's README.
