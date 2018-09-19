@@ -22,7 +22,6 @@ This app was created mostly just to sharpen my React skills, as well as help me 
 
 ## Installation
 
-
 Clone the source locally:
 
 ```sh
