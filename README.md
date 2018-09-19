@@ -1,6 +1,6 @@
 ### Welcome!
 
-This is the back end for Tinynote, a simple note-taking app that I built using React and Rails. For the front end, see https://github.com/mdtalbot/tinynote-frontend.  
+This is the back end for Tinynote, a simple note-taking app that I built using React and a Rails starter template provided by my coding bootcamp. For the front end, see https://github.com/mdtalbot/tinynote-frontend.  
 
 ### Motivation
 
@@ -26,28 +26,45 @@ This app was created mostly just to sharpen my React skills, as well as help me 
 Clone the source locally:
 
 ```sh
-$ git clone https://github.com/mdtalbot/tinynote-frontend/
-$ cd tinynote-frontend
+$ git clone https://github.com/mdtalbot/tinynote-backend/
+$ cd tinynote-backend
 ```
-If you're on Debian or Ubuntu, you'll also need to install
-`nodejs-legacy`:
 
-Use your package manager to install `npm`.
+Install the `bundler` Gemfile:
 
 ```sh
-$ sudo apt-get install npm nodejs-legacy
+$ gem install bundler
 ```
 
 Install project dependencies:
 
 ```sh
-$ npm install
+$ bundle install
 ```
 
-*Make sure to also clone, install, and run the back end, found at http://www.github.com/mdtalbot/tinynote-backend*. Installation instructions for the back end are found in that repository's README.
-
-Start the app:
+Create the database:
 
 ```sh
-$ npm start
+$ rails db:create
 ```
+
+Apply migrations to the database:
+
+```sh
+$ rails db:migrate
+```
+
+(Optional) Seed the database:
+
+```sh
+$ rails db:seed
+```
+This will create a few notes filled with standard lorem ipsum placeholder text.
+
+Start the server on port 4000:
+
+```sh
+$ rails s -p 4000
+```
+
+*Once the server is running, make sure to also clone, install, and run the front end, found at http://www.github.com/mdtalbot/tinynote-frontend*. Installation instructions for the front end are found in that repository's README.
