@@ -1,13 +1,53 @@
-### Project Description
+### Welcome!
 
-We will be making an Evernote clone!  Fork this repo, and follow the requirements below to get started.  
+This is the back end for Tinynote, a simple note-taking app that I built using React and Rails. For the front end, see https://github.com/mdtalbot/tinynote-frontend.  
 
-### Requirements
-1. You will be developing the HTML/CSS/JS front-end to support a pre-defined Rails API backend. (This repo provides you with a starter back end to work with.) The domain model consists of Users and Notes. Each user has many notes.
-2. The Frontend and Backend will live in two separate repositories. All interactions between the client and the server should be handled asynchronously (Ajax / fetch).
-3. The application should support:
-    1. Listing all of a user's notes on a sidebar -->  For now, only create one user.  There will be no log in.
-    2. When a user clicks on a note "preview" in the sidebar, the full note body and any other details of the currently selected note should show on the page.  
-    3. Allow users to create, edit and delete notes.
-    4. Feel free to add on your own features if you have built all of the above!  Some ideas:  You could add filter or search functionality, multiple users, or support for rich format (bold, italic, etc) when creating a note.
-4. **You may not use authentication or authorization. This means no user log in**. We'll look at patterns for dealing with client-side auth later in the semester, so you'll have plenty of time to deal with this case.
+### Motivation
+
+This app was created mostly just to sharpen my React skills, as well as help me delve further into Semantic UI. The fact that it also helps keep me organized is a bonus.
+
+### Libraries and Frameworks Used
+
+* [Ruby on Rails](https://rubyonrails.org/)
+* [React](https://reactjs.org/)
+* [Semantic UI](https://react.semantic-ui.com/)
+* [Moment](https://momentjs.com/)
+* [PostgreSQL](https://www.postgresql.org/)
+
+## Features
+
+- [x] Allows users to create, read, update, and delete notes.
+- [x] Contains a search bar for easy retrieval of notes from the database.
+- [ ] (WIP) Sorts notes by the date they were created or date they were updated.
+
+## Installation
+
+
+Clone the source locally:
+
+```sh
+$ git clone https://github.com/mdtalbot/tinynote-frontend/
+$ cd tinynote-frontend
+```
+If you're on Debian or Ubuntu, you'll also need to install
+`nodejs-legacy`:
+
+Use your package manager to install `npm`.
+
+```sh
+$ sudo apt-get install npm nodejs-legacy
+```
+
+Install project dependencies:
+
+```sh
+$ npm install
+```
+
+*Make sure to also clone, install, and run the back end, found at http://www.github.com/mdtalbot/tinynote-backend*. Installation instructions for the back end are found in that repository's README.
+
+Start the app:
+
+```sh
+$ npm start
+```
