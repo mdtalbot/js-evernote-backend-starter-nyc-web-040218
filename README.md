@@ -1,6 +1,6 @@
 ### Welcome!
 
-This is the back end for Tinynote, a simple note-taking app that I built using React and a Rails starter template provided by my coding bootcamp. For the front end, see https://github.com/mdtalbot/tinynote-frontend.  
+This is the back end for Tinynote, a simple note-taking app that I built using React and a Rails starter template provided by the Flatiron School. For the front end, see https://github.com/mdtalbot/tinynote-frontend.  
 
 ### Motivation
 
